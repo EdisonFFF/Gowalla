@@ -1,0 +1,30 @@
+# Gowalla 链路预测项目依赖（Python 3.11+）
+# 对应 项目执行计划.md §0.2
+
+# 数值计算
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+pyarrow
+
+# 图（小规模 sanity check；主路径用 scipy.sparse CSR）
+networkx
+
+# 机器学习
+scikit-learn>=1.4
+lightgbm
+shap
+
+# 统计
+powerlaw
+statsmodels
+
+# 可视化
+matplotlib
+seaborn
+
+# 工程
+tqdm
+joblib
+hydra-core
+pytest
