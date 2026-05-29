@@ -1,0 +1,3 @@
+u,v,common_neighbors,jaccard,preferential_attachment,adamic_adar,center_distance,shared_locations,location_jaccard,entropy_similarity,label
+1,3,1,0.1,4,0.5,1.0,2,0.25,0.33,1
+2,4,2,0.2,6,0.7,2.0,3,0.5,0.44,0
